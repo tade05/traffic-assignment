@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main1{
+    background-image: url(./Images/imgi_1_skye.jpg);
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main2{
+    position: absolute;
+    top: 190px;
+    /* left: 0px; */
+}
+.lady{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    animation: lady 10s linear 0s infinite;
+}
+@keyframes lady{
+    from{
+        transform: translate(-100px,0px);
+    }
+    to{
+        transform: translate(1350px,0px);
+    }
+}
+.man{
+    width: 100px;
+    position: relative;
+    top: 10px;
+    right:0px;
+    animation: man 10s linear 0s infinite;
+}
+@keyframes man{
+    from{
+        transform: translate(1200px,0px);
+    }
+    to{
+        transform: translate(-1300px,0px);
+    }
+}
+.tape{
+    background-color: greenyellow;
+    width: 100vw;
+    height: 10px;
+}
+.road1{ 
+    background-image: url(./Images/imgi_5_road.jpeg);
+    position: absolute;
+    width: 100vw;
+    height: 380px;
+}
+.vehicle1{
+    position: relative;
+    top: 30px;
+    left: 700px;
+    animation: bike 7s linear 0s infinite;
+}
+@keyframes bike{
+    from{
+        transform: translate(1000px,0px);
+    }
+    to{
+        transform: translate(-1000px,0px);
+    }
+}
+.vehicle2{
+    position: relative;
+    top: -30px;
+    left: 850px;
+    animation: car 7s linear 0s infinite;
+}
+@keyframes car{
+    from{
+        transform: translate(1000px,0px);
+    }
+    to{
+        transform: translate(-1200px,0px);
+    }
+}
+.vehicle3{
+    position: relative;
+    top: 40px;
+    left: 800px;
+    animation: van 7s linear 0s infinite forwards;
+}
+@keyframes van{
+    from{
+        transform: translate(1000px,0px);
+    }
+    to{
+        transform: translate(-1200px,0px);
+    }
+}
+.vehicle4{
+    position: relative;
+    width: 120px;
+    top: 200px;
+    right: 200px;
+    animation: bicycle 7s linear 0s infinite forwards;
+}
+@keyframes bicycle{
+    from{
+        transform: translate(-300px,0px);
+    }
+    to{
+        transform: translate(1350px,0px);
+    }
+}
+.vehicle5{
+    position: relative;
+    top: 40px;
+    left: 800px;
+    animation: van 7s linear 0s infinite forwards;
+}
+
+.vehicle6{
+    position: relative;
+    width: 140px;
+    top: 120px;
+    right: 200px;
+    animation: taxi 7s linear 0s infinite forwards;
+}
+@keyframes taxi{
+    from{
+        transform: translate(-500px,0px);
+    }
+    to{
+        transform: translate(1350px,0px);
+    }
+}
+.vehicle7{
+    position: relative;
+    top: 130px;
+    right: 600px;
+    animation: truck 7s linear 0s infinite forwards;
+}
+@keyframes truck{
+    from{
+        transform: translate(-300px,0px);
+    }
+    to{
+        transform: translate(1350px,0px);
+    }
+}
+.aeroplane{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    animation: airplane 4s linear 0s infinite forwards;
+}
+@keyframes airplane{
+    from{
+        transform: translate(1000px,0px);
+    }
+    to{
+        transform: translate(-1200px,0px);
+    }
+}
+.helicopter{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    animation: heli 6s linear 0s infinite forwards;
+}
+@keyframes heli{
+    from{
+        transform: translate(1000px,0px);
+    }
+    to{
+        transform: translate(-1200px,0px);
+    }
+}
+.birds{
+    width: 10px;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+.roadsign{
+    position: relative;
+    top: 20px;
+    left: 350px;
+}
+.light{
+    position: relative;
+    top: -40px;
+    left: 400px;
+    width: 100px;
+}
