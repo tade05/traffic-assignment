@@ -114,11 +114,19 @@
 }
 .vehicle5{
     position: relative;
-    top: 40px;
-    left: 800px;
-    animation: van 7s linear 0s infinite forwards;
+    top: 100px;
+    right: 200px;
+    animation: sportscar 7s linear 0s infinite forwards;
+    width: 130px;
 }
-
+@keyframes sportscar{
+    from{
+        transform: translate(-500px,0px);
+    }
+    to{
+        transform: translate(1350px,0px);
+    }
+}
 .vehicle6{
     position: relative;
     width: 140px;
